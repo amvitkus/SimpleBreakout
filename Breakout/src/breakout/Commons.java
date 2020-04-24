@@ -1,5 +1,6 @@
 package breakout;
 
+//Common variables that are easy to access and change
 public interface Commons {
 	
 	public static final int WIDTH = 300;
