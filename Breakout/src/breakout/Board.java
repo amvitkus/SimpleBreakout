@@ -16,7 +16,7 @@ import java.util.TimerTask;
 import javax.swing.JPanel;
 
 public class Board extends JPanel implements Commons {
-	
+	//Set variables
 	Image ii;
 	Timer timer;
 	String message = "GAME OVER";
@@ -32,6 +32,7 @@ public class Board extends JPanel implements Commons {
 		addKeyListener(new TAdapter());
 		setFocusable(true);
 		
+		//creates 30 bricks
 		bricks = new Brick[30];
 		setDoubleBuffered(true);
 		timer = new Timer();
